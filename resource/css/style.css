@@ -1,0 +1,103 @@
+.container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #1e1e1e;
+    /* background-image: url("/resource/image/gatotkaca.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: grid;
+    grid-template-rows: 6fr 7fr;
+    grid-gap: 15px;
+}
+
+.image-display {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    pointer-events: none;
+    /* background-color: aqua; */
+
+}
+
+.image-menggatot {
+    width: 350px;
+    border-radius: 2%;
+}
+
+.input-all {
+    display: flex;
+    justify-content: center;
+}
+
+.input-all-wrap {
+    width: 400px;
+}
+
+.input-display {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+    border: solid white 3px;
+}
+
+.input-search {
+    padding: 10px;
+    width: 400px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+    outline: none;
+}
+
+.button-search {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.add-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.line-1 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    width: 200px;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.line-2 {
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    margin-right: 140px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.jumpscare {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #1e1e1e;
+    background: url("https://im.ezgif.com/tmp/ezgif-1-9d3f35e43e.gif") center;
+    background-size: cover;
+    display: none;
+}

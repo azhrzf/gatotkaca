@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Gatotkaca</title>
 </head>
+
 <body>
-    <p>Tes</p>
-    <img src="Resource/gatotkaca.gif">
+    <div class="jumpscare">
+    </div>
+    <audio controls autoplay id="audio-menggatot" hidden><source src="resource/sound/jeff.mp3"></audio>
+    <div class="container">
+        <div class="image-display">
+            <img class="image-menggatot" src="resource/image/gatotkaca1.png">
+        </div>
+        <div class="input-all">
+            <div class="input-all-wrap">
+                <div class="input-display">
+                    <input class="input-search" type="text" placeholder="Search.." name="search">
+                    <button class="button-search" type="submit" onclick="spook()"><i class="material-icons" style="color: white;">&#xe8b6;</i></button>
+                </div>
+                <div class="add-line">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="resource/js/script.js"></script>
 </body>
+
 </html>
