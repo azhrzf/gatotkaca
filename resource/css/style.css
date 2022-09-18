@@ -90,6 +90,12 @@
     border-radius: 20px;
 }
 
+/* .empty {
+    margin-left: auto;
+    color: red;
+    display: inline;
+} */
+
 .jumpscare {
     position: absolute;
     top: 0px;

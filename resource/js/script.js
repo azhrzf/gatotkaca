@@ -1,7 +1,22 @@
+const input = document.querySelector(".input-search")
+const container = document.querySelector(".container")
+const jumpscare = document.querySelector(".jumpscare")
+const audio = document.getElementById("audio-menggatot")
+
+input.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+        event.preventDefault()
+        spook()
+    }
+})
+
 const spook = () => {
-    document.querySelector(".container").setAttribute("style", "display:none")
-    document.querySelector(".jumpscare").setAttribute("style", "display:block")
-    document.getElementById("audio-menggatot").play()
+    if (input.value === "") {
+
+    }
+    container.setAttribute("style", "display:none")
+    jumpscare.setAttribute("style", "display:block")
+    audio.play()
     endSpook()
 }
 
@@ -10,7 +25,7 @@ const endSpook = () => {
 }
 
 const menggatotNone = () => {
-    document.querySelector(".container").setAttribute("style", "display:grid")
-    document.querySelector(".jumpscare").setAttribute("style", "display:none")
-    document.getElementById("audio-menggatot").pause()
+    container.setAttribute("style", "display:grid")
+    jumpscare.setAttribute("style", "display:none")
+    audio.pause()
 }
