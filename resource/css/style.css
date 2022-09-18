@@ -97,7 +97,41 @@
     bottom: 0px;
     left: 0px;
     background-color: #1e1e1e;
-    background: url("https://im.ezgif.com/tmp/ezgif-1-9d3f35e43e.gif") center;
+    background: url("https://i.pinimg.com/originals/af/c2/06/afc20646ce6e6dc09cba83d3166f7c7f.gif") center;
     background-size: cover;
-    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .image-menggatot {
+        width: 250px;
+        border-radius: 2%;
+    }
+
+    .input-all-wrap {
+        width: 300px;
+    }
+    
+    .input-search {
+        width: 300px;
+    }
+
+    .line-1 {
+        width: 120px;
+    }
+
+    .line-2 {
+        margin-right: 135px;
+        width: 20px;
+    }
+
+    .jumpscare {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #1e1e1e;
+        background: url("https://i.pinimg.com/originals/af/c2/06/afc20646ce6e6dc09cba83d3166f7c7f.gif") center;
+        background-size: cover;
+    }
 }
