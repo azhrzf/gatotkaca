@@ -28,8 +28,8 @@ const endSpook = () => {
 }
 
 const menggatotNone = () => {
-    container.setAttribute("style", "display:grid")
-    jumpscare.setAttribute("style", "display:none")
     audio.pause()
     window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    container.setAttribute("style", "display:grid")
+    jumpscare.setAttribute("style", "display:none")
 }
