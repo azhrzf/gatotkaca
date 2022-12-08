@@ -1,3 +1,6 @@
+//AWOAWKOAKWO NGPAIAN KE SINI BANG?
+//KEK GK ADA KERJAAN AJA
+
 const input = document.querySelector(".input-search")
 const container = document.querySelector(".container")
 const jumpscare = document.querySelector(".jumpscare")
@@ -12,7 +15,7 @@ input.addEventListener("keypress", (event) => {
 
 const spook = () => {
     if (input.value === "") {
-
+        
     }
     container.setAttribute("style", "display:none")
     jumpscare.setAttribute("style", "display:block")
@@ -21,11 +24,12 @@ const spook = () => {
 }
 
 const endSpook = () => {
-    const menggatotTimeout = setTimeout(menggatotNone, 15000);
+    const menggatotTimeout = setTimeout(menggatotNone, 4000);
 }
 
 const menggatotNone = () => {
     container.setAttribute("style", "display:grid")
     jumpscare.setAttribute("style", "display:none")
     audio.pause()
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 }
